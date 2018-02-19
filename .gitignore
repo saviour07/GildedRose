@@ -10,3 +10,8 @@
 /GildedRoseApp/bin/Debug
 /GildedRose.Test/bin/Debug
 /.vs/config/applicationhost.config
+*.suo
+/GildedRose.Test/bin/x64/Debug
+/packages/Microsoft.VisualStudio.QualityTools.UnitTestFramework.Updated.15.0.26228
+/packages/MSTest.TestAdapter.1.2.0/build
+/packages/MSTest.TestFramework.1.2.0/lib

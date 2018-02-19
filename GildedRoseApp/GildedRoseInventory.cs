@@ -29,77 +29,18 @@ namespace GildedRoseApp
 
         private static IList<Item> GenerateItems()
         {
-            var items = new List<Item>
+            return new List<Item>
             {
-                {
-                    new CheeseItem
-                    {
-                        Name = "Aged Brie",
-                        SellIn = 1,
-                        Quality = 1
-                    }
-                },
-                {
-                    new TicketItem
-                    {
-                        Name = "Backstage Pass",
-                        SellIn = -1,
-                        Quality = 2
-                    }
-                },
-                {
-                    new TicketItem
-                    {
-                        Name = "Backstage Pass",
-                        SellIn = 9,
-                        Quality = 2
-                    }
-                },
-                {
-                    new LegendaryItem
-                    {
-                        Name = "Sulfuras",
-                        SellIn = 2,
-                        Quality = 2
-                    }
-                },
-                {
-                    new NormalItem
-                    {
-                        SellIn = -1,
-                        Quality = 55
-                    }
-                },
-                {
-                    new NormalItem
-                    {
-                        SellIn = 2,
-                        Quality = 2
-                    }
-                },
-                {
-                    new InvalidItem
-                    {
-                        SellIn = 2,
-                        Quality = 2
-                    }
-                },
-                {
-                    new ConjuredItem
-                    {
-                        SellIn = 2,
-                        Quality = 2
-                    }
-                },
-                {
-                    new ConjuredItem
-                    {
-                        SellIn = -1,
-                        Quality = 5
-                    }
-                }
+                new CheeseItem { Name = "Aged Brie", SellIn = 1, Quality = 1 },
+                new TicketItem { Name = "Backstage Pass", SellIn = -1, Quality = 2 },
+                new TicketItem { Name = "Backstage Pass", SellIn = 9, Quality = 2 },
+                new LegendaryItem { Name = "Sulfuras", SellIn = 2, Quality = 2 },
+                new NormalItem { SellIn = -1, Quality = 55 },
+                new NormalItem { SellIn = 2, Quality = 2 },
+                new InvalidItem { SellIn = 2, Quality = 2 },
+                new ConjuredItem { SellIn = 2, Quality = 2 },
+                new ConjuredItem { SellIn = -1, Quality = 5 }
             };
-            return items;
         }
 
         private static void PrintItems(IList<Item> items)

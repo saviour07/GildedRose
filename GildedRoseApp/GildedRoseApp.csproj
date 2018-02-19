@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GildedRoseBusinessLogic\GildedRoseBusinessLogic.csproj">
-      <Project>{786654B0-FB26-47B1-8F07-8E787FDDF752}</Project>
+      <Project>{786654b0-fb26-47b1-8f07-8e787fddf752}</Project>
       <Name>GildedRoseBusinessLogic</Name>
     </ProjectReference>
   </ItemGroup>
